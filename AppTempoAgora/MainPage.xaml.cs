@@ -29,8 +29,10 @@ namespace AppTempoAgora
                                          $"Nascer do Sol: {t.Sunrise} \n" +
                                          $"Pôr do Sol: {t.Sunset} \n" +
                                          $"Temperatura Máxima: {t.TempMax}°C \n" +
-                                         $"Temperatura Mínima: {t.TempMin}°C ";
-                                           
+                                         $"Temperatura Mínima: {t.TempMin}°C \n\n" +
+                                         $"Velocidade do Vento: {t.Speed} m/s \n" +
+                                         $"Visibilidade: {t.Visibility} metros \n" +
+                                         $"Descrição do clima: {t.Description} \n";
 
                         lbl_res.Text = dados_previsao;
                     }

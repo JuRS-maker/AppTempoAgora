@@ -8,33 +8,33 @@ namespace AppTempoAgora.Models
     public class Tempo
     {
         [JsonPropertyName("lon")]
-        public double? Lon { get; set; }
+        public double? Lon { get; set; }//Longitude
 
         [JsonPropertyName("lat")]
-        public double? Lat { get; set; }
+        public double? Lat { get; set; }//Latitude
 
         [JsonPropertyName("temp_min")]
-        public double? TempMin { get; set; }
+        public double? TempMin { get; set; }//Temperatura mínima
 
         [JsonPropertyName("temp_max")]
-        public double? TempMax { get; set; }
+        public double? TempMax { get; set; }//Temperatura máxima
 
         [JsonPropertyName("visibility")]
-        public int? Visibility { get; set; }
+        public int? Visibility { get; set; }//Visibilidade
 
         [JsonPropertyName("speed")]
-        public double? Speed { get; set; }
+        public double? Speed { get; set; }//Velocidade do vento
 
         [JsonPropertyName("main")]
-        public string? Main { get; set; }
+        public string? Main { get; set; }//Condição do clima
 
         [JsonPropertyName("description")]
-        public string? Description { get; set; }
+        public string? Description { get; set; }//Descrição do clima
 
         [JsonPropertyName("sunrise")]
-        public string? Sunrise { get; set; }
+        public string? Sunrise { get; set; }//Nascer do Sol
 
         [JsonPropertyName("sunset")]
-        public string? Sunset { get; set; }
+        public string? Sunset { get; set; }//Pôr do Sol
     }
 }
